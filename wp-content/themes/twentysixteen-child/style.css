@@ -13,5 +13,36 @@
 */
 
 
+/*Front page themes*/ 
+
+@media screen and (min-width: 56.875em)
+.content-area {
+    width: 70%;
+}
+
+.page-header h1 {
+    margin: 0 auto;
+    
+}
+
+/*Header design*/ 
+
+.site-header-main {
+    background:#fff;
+    height:60px;
+    z-index:170;
+    margin:0 auto;
+    border-bottom:1px solid #dadada;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    text-align: center;
+}
+
+.site-title {
+    font-family: "times new roman";
+}
 
 
