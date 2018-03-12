@@ -13,6 +13,23 @@
 */
 
 
+/*Across the Site*/
+
+body {
+    background: #FFFFFF;
+}
+
+.site-content {
+    background: #CAE4DB;
+}
+
+/*Removing Masthead space on front page*/
+
+@media screen and (min-width: 61.5625em)
+.site-header {
+    padding: 0em 4.5455%;
+}
+
 /*Front page themes*/ 
 
 #primary {
