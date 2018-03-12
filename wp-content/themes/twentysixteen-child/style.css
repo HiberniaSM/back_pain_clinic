@@ -17,23 +17,33 @@
 
 body {
     background: #FFFFFF;
+    font-family: proxima-nova,"Proxima Nova",Helvetica,Arial,sans-serif;
 }
 
 .site-content {
     background: #CAE4DB;
 }
 
-/*Removing Masthead space on front page*/
+/*Removing the masthead*/
 
-@media screen and (min-width: 61.5625em)
-.site-header {
-    padding: 0em 4.5455%;
-}
+@media screen and (min-width: 61.5625em) {
+	.site-main {
+		margin-bottom: 0em;
+	}
 
-/*Front page themes*/ 
+	.site-header {
+		padding: 0em 4.5455%;
+	}
+
+/*Front page design*/ 
 
 #primary {
     width: 100%;
+}
+
+.page-header {
+    margin: 0 7.6923% 3.5em;
+    padding-top: 1.75em;
 }
 
 .page-header h1 {
@@ -45,7 +55,7 @@ body {
     margin: 0 auto;
     max-width: 90%;
 }
-
+    
 /*Header design*/ 
 
 .site-header-main {
@@ -60,10 +70,11 @@ body {
     left:0;
     right:0;
     text-align: center;
+    font-family: proxima-nova,"Proxima Nova",Helvetica,Arial,sans-serif;
 }
 
 .site-title {
-    font-family: "times new roman";
+    font-family: proxima-nova,"Proxima Nova",Helvetica,Arial,sans-serif;
 }
 
 
