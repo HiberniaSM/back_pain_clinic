@@ -24,17 +24,6 @@ body {
     background: #CAE4DB;
 }
 
-/*Removing the masthead*/
-
-@media screen and (min-width: 61.5625em) {
-	.site-main {
-		margin-bottom: 0em;
-	}
-
-	.site-header {
-		padding: 0em 4.5455%;
-	}
-
 /*Front page design*/ 
 
 #primary {
@@ -42,8 +31,9 @@ body {
 }
 
 .page-header {
-    margin: 0 7.6923% 3.5em;
-    padding-top: 1.75em;
+	border-top: none;
+	margin: 0 7.6923% 3.5em;
+	padding-top: 1.75em;
 }
 
 .page-header h1 {
@@ -55,6 +45,27 @@ body {
     margin: 0 auto;
     max-width: 90%;
 }
+
+/*Making the banner image full width */
+
+
+
+/*Removing the masthead*/
+
+@media screen and (min-width: 61.5625em) {
+	.site-main {
+		margin-bottom: 0em;
+	}
+
+	.site-header {
+		padding: 0em 4.5455%;
+	}
+    
+/*Profile image*/
+    
+.profile-image img {
+    max-width: 20%;
+    }
     
 /*Header design*/ 
 
@@ -76,5 +87,3 @@ body {
 .site-title {
     font-family: proxima-nova,"Proxima Nova",Helvetica,Arial,sans-serif;
 }
-
-

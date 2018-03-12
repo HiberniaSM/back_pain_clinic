@@ -25,10 +25,11 @@ get_header(); ?>
             $size ='full';
         ?>
         
-        <div>
-            <p class="banner-image"><?php if($banner_image) { 
+        <div class="banner-image">
+            <p><?php if($banner_image) { 
                 echo wp_get_attachment_image($banner_image, $size);
                 } ?></p>
+            <h2>The Back Pain Clinic</h2>
         </div>
         
             <div class="page-header">
@@ -38,10 +39,10 @@ get_header(); ?>
             
             <div class="page-content">
 				<?php the_content(); ?>
-                <p class="profile-image"><?php if($profile_image) { 
-                echo wp_get_attachment_image($profile_image, $size);
-                } ?></p>
-            </div>    
+                    <p class="profile-image"><?php if($profile_image) { 
+                    echo wp_get_attachment_image($profile_image, $size);
+                    } ?></p>
+            </div> 
             
             <div class="services-header">
                 <h2 class="services-header"><?php echo $services_header; ?>
@@ -60,6 +61,5 @@ get_header(); ?>
 </div><!-- .content-area -->
 
 <?php get_footer(); ?>
-
-<?php endwhile; // end of the loop. ?>
+		<?php endwhile; // end of the loop. ?>
 
