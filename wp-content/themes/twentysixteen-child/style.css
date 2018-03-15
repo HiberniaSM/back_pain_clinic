@@ -16,12 +16,29 @@
 /*Across the Site*/
 
 body {
-    background: #FFFFFF;
-    font-family: proxima-nova,"Proxima Nova",Helvetica,Arial,sans-serif;
+    background: #F0F4F5;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration-color: #FFF;
 }
 
 .site-content {
-    background: #CAE4DB;
+    background: #F0F4F5;
+}
+
+/*Top Nav Bar*/
+
+#menu-top_nav_menu {
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.site-branding {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.main-navigation a {
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 /*Front page design*/ 
@@ -32,13 +49,14 @@ body {
 
 .page-header {
 	border-top: none;
-	margin: 0 7.6923% 3.5em;
 	padding-top: 1.75em;
+    margin-bottom: 3%;
 }
 
 .page-header h1 {
     margin: 0 auto;
-    max-width: 90%;    
+    max-width: 90%;
+    border-bottom: .1px black solid;
 }
 
 .page-content {
@@ -46,9 +64,35 @@ body {
     max-width: 90%;
 }
 
+.page-content h3 {
+    margin-bottom: 2%;
+}
+
+.page-content p {
+    margin-bottom: 1%;
+}
+
 /*Making the banner image full width */
 
+#banner-image {
+    background-image: url(img/banner_free-to-use_2.jpg);
+    width: 100%;
+    height: 300px;
+    margin: 1px;
+    padding: 0;
+}
 
+#banner-image h2 {
+    position: absolute;
+    top: 120px;
+    max-width: 50%;
+    margin: auto 
+    text-align: center;
+    color: #000;
+    font-size: 40px;
+    background-color: #F0F4F5;
+    padding-right: 10px;
+}
 
 /*Removing the masthead*/
 
@@ -70,20 +114,20 @@ body {
 /*Header design*/ 
 
 .site-header-main {
-    background:#fff;
-    height:80px;
-    z-index:170;
-    margin:0 auto;
-    border-bottom:1px solid #dadada;
-    width:100%;
-    position:fixed;
+    background: #F0F4F5;
+    height: 80px;
+    z-index: 170;
+    margin: 0 auto;
+    border-bottom: 1px solid #dadada;
+    width: 100%;
+    position: fixed;
     top:0;
     left:0;
     right:0;
     text-align: center;
-    font-family: proxima-nova,"Proxima Nova",Helvetica,Arial,sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .site-title {
-    font-family: proxima-nova,"Proxima Nova",Helvetica,Arial,sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }

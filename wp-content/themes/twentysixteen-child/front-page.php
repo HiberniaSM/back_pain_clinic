@@ -13,10 +13,14 @@
 
 get_header(); ?>
 
+<div id="banner-image">
+    <img src="img/banner_temporary.jpg" width="100%">
+    <h2>The Back Pain Clinic</h2>
+</div>
+
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
         <?php while ( have_posts() ) : the_post(); 
-            $banner_image = get_field('banner_image');
             $profile_image = get_field('profile_image');
             $services_header = get_field('services_header');
             $services_content = get_field('services_content');
@@ -24,13 +28,6 @@ get_header(); ?>
             $accreditation_content = get_field('accreditation_content');
             $size ='full';
         ?>
-        
-        <div class="banner-image">
-            <p><?php if($banner_image) { 
-                echo wp_get_attachment_image($banner_image, $size);
-                } ?></p>
-            <h2>The Back Pain Clinic</h2>
-        </div>
         
             <div class="page-header">
             
