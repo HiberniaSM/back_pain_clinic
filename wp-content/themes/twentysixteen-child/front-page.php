@@ -16,6 +16,8 @@ get_header(); ?>
 <div id="banner-image">
     <img src="img/banner_temporary.jpg" width="100%">
     <h2>The Back Pain Clinic</h2>
+    <p class="name">John McNamee M.C.S.P</p>
+    <p class="number">Call Us: 028 71280380</p>
 </div>
 
 <div id="primary" class="content-area">
@@ -33,13 +35,19 @@ get_header(); ?>
             
                 <h1>Welcome to the Back Pain Clinic</h1>
             </div>        
-            
-            <div class="page-content">
-				<?php the_content(); ?>
-                    <p class="profile-image"><?php if($profile_image) { 
+        
+        <article class="profile">
+            <div class="profile-content">
+				<div class="profile-text">
+                    <?php the_content(); ?>
+                </div>
+                <div class="profile-image">
+                    <?php if($profile_image) { 
                     echo wp_get_attachment_image($profile_image, $size);
-                    } ?></p>
+                    } ?>
+                </div>
             </div> 
+        
             
             <div class="services-header">
                 <h2 class="services-header"><?php echo $services_header; ?>
@@ -53,7 +61,8 @@ get_header(); ?>
                 <p class="main-accreditation"><?php echo $accreditation_content; ?>
                 </p> 
             </div>
-
+        
+        </article>
     </main><!-- .site-main -->
 </div><!-- .content-area -->
 

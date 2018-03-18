@@ -10,6 +10,7 @@
  */
 
 ?><!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Dosis|Open+Sans" rel="stylesheet">
 <html <?php language_attributes(); ?> class="no-js">
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
