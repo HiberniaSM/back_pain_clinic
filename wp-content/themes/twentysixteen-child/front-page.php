@@ -49,18 +49,14 @@ get_header(); ?>
             </div> 
         
             
-            <div class="services-header">
-                <h2 class="services-header"><?php echo $services_header; ?>
-                </h2>
+                <h3 class="services-header"><?php echo $services_header; ?>
+                </h3>
                 <p class="services-content"><?php echo $services_content; ?>
                 </p>
-            </div>
         
-            <div class="accreditation-content">
-                <h2 class="header-accreditation"><?php echo $accreditation_header; ?></h2>
+                <h3 class="header-accreditation"><?php echo $accreditation_header; ?></h3>
                 <p class="main-accreditation"><?php echo $accreditation_content; ?>
                 </p> 
-            </div>
         
         </article>
     </main><!-- .site-main -->

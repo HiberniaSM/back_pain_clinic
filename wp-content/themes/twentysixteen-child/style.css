@@ -96,6 +96,20 @@ body {
     top: 45px;
 }
 
+/*Correcting the separation between list and header in services and accreditation*/
+
+.services-content {
+    margin: 0 0 1% 0;
+}
+
+.header-accreditation {
+    margin: 0 0 1% 0;
+}
+
+.main-accreditation {
+    margin: 0;
+}
+
 /*Making the banner image full width */
 
 #banner-image {
@@ -159,6 +173,9 @@ body {
     
 .profile-image img {
     max-width: 20%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
     }
     
 /*Header design*/ 
