@@ -28,8 +28,9 @@ body {
 /*Top Nav Bar*/
 
 #menu-top_nav_menu {
-    margin-right: 20px;
-    margin-top: 15px;
+    position: fixed;
+    top: 3%;
+    right: 2%;
 }
 
 .site-branding {
@@ -121,15 +122,17 @@ body {
 }
 
 #banner-image h2 {
+    font-family: 'Bree Serif', serif;
     position: absolute;
     top: 120px;
     max-width: 50%;
-    margin: auto 
+    margin: auto; 
     text-align: center;
     color: #000;
     font-size: 40px;
     background-color: #F0F4F5;
     padding-right: 10px;
+    padding-left: 10px;
 }
 
 .name {
@@ -182,7 +185,7 @@ body {
 
 .site-header-main {
     background: #F0F4F5;
-    height: 80px;
+    height: 15%;
     z-index: 170;
     margin: 0 auto;
     border-bottom: 1px solid #dadada;
@@ -197,4 +200,7 @@ body {
 
 .site-title {
     font-family: 'Bree Serif', sans-serif;
+    position: fixed; 
+    top: 3%;
+    top: 2%;
 }
