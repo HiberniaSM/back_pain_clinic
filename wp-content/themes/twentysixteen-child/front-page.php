@@ -14,7 +14,6 @@
 get_header(); ?>
 
 <div id="banner-image">
-    <img src="img/banner_temporary.jpg" width="100%">
     <h2>The Back Pain Clinic</h2>
     <p class="name">John McNamee M.C.S.P</p>
     <p class="number">Call Us: 028 71280380</p>

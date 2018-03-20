@@ -29,7 +29,7 @@ body {
 
 #menu-top_nav_menu {
     position: fixed;
-    top: 3%;
+    top: 8%;
     right: 2%;
 }
 
@@ -185,7 +185,7 @@ body {
 
 .site-header-main {
     background: #F0F4F5;
-    height: 15%;
+    height: 18%;
     z-index: 170;
     margin: 0 auto;
     border-bottom: 1px solid #dadada;
@@ -201,6 +201,18 @@ body {
 .site-title {
     font-family: 'Bree Serif', sans-serif;
     position: fixed; 
-    top: 3%;
-    top: 2%;
+    top: 8%;
+    left: 2%;
 }
+
+/* Site footer*/ 
+
+.site-footer {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #F0F4F5;
+    }
+
+.footer-info {
+    display: flex;       
+    }
