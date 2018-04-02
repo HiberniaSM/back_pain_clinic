@@ -231,10 +231,26 @@ body {
     top: 12px;
     }
 
+.physio-text a {
+    color: #000;
+    }
+    
+.physio-text a:hover {
+    color: #0071CC;
+    }
+
 .health-text {
     max-width: 13%;
     position: relative;
     top: 12px;
+    }
+    
+.health-text a {
+    color: #000;
+    }
+    
+.health-text a:hover {
+    color: #0071CC;
     }
     
 .health-image {

@@ -15,16 +15,20 @@
 		<footer id="colophon" class="site-footer" role="contentinfo">
                 <div class="footer-info">
                     <div class="physio-text">
+                        <a href="http://www.csp.org.uk/" target="_blank">
                         <h2>Chartered Society of Physiotherapists</h2>
+                        </a>
                     </div>
                     <div class="physio-image">    
-                        <img src="http://localhost/back_pain_clinic/wp-content/themes/twentysixteen-child/img/chartered_logo_no-background.png" alt="Chartered Society of Physios logo" width="100" height="auto">
+                        <a href="http://www.csp.org.uk/" target="_blank"><img src="http://localhost/back_pain_clinic/wp-content/themes/twentysixteen-child/img/chartered_logo_no-background.png" alt="Chartered Society of Physios logo" width="100" height="auto"></a>
                     </div>  
                     <div class="health-text">
+                        <a href="http://www.hcpc-uk.co.uk/" target="_blank">
                         <h2>Health and Care Professions Council</h2>
+                        </a>
                     </div>
                     <div class="health-image">
-                        <img src="http://localhost/back_pain_clinic/wp-content/themes/twentysixteen-child/img/hcpc_logo_1.jpg" alt="Chartered Society of Physios logo" width="150" height="auto"> 
+                        <a href="http://www.hcpc-uk.co.uk/" target="_blank"><img src="http://localhost/back_pain_clinic/wp-content/themes/twentysixteen-child/img/hcpc_logo_1.jpg" alt="Chartered Society of Physios logo" width="150" height="auto"></a> 
                     </div>            
                     <div class="contact-footer">
                         <h1>The Back Pain Clinic</h1>
