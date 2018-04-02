@@ -29,7 +29,7 @@ body {
 
 #menu-top_nav_menu {
     position: fixed;
-    top: 8%;
+    top: 33px;
     right: 2%;
 }
 
@@ -185,7 +185,7 @@ body {
 
 .site-header-main {
     background: #F0F4F5;
-    height: 18%;
+    height: 75px;
     z-index: 170;
     margin: 0 auto;
     border-bottom: 1px solid #dadada;
@@ -201,18 +201,74 @@ body {
 .site-title {
     font-family: 'Bree Serif', sans-serif;
     position: fixed; 
-    top: 8%;
+    top: 35px;
     left: 2%;
 }
 
 /* Site footer*/ 
+    
+.contact-footer h1 {
+    font-family: 'Bree Serif', 'serif';    
+    }
 
 .site-footer {
-    max-width: 100%;
-    margin: 0 auto;
+    max-width: 90%;
+    margin: 3% auto 0% auto;
     background-color: #F0F4F5;
+    border-top: 1px black dotted;
     }
 
 .footer-info {
     display: flex;       
+    justify-content: space-around; 
+    margin-top: 2%;
+    }
+
+
+.physio-text {
+    max-width: 14%;
+    position: relative;
+    top: 12px;
+    }
+
+.health-text {
+    max-width: 13%;
+    position: relative;
+    top: 12px;
+    }
+    
+.health-image {
+    padding-right: 30px;
+    padding-right: 30px;
+    border-right: 1px black dotted;
+    position: relative;
+    top: 12px;
+    }
+    
+.site-inner {
+    background-color: #F0F4F5;
+    }
+    
+.contact-footer {
+    max-width: 40%;
+    padding-left: 20px;
+    }
+    
+.contact-footer p {
+    margin: 0;
+    }
+
+.footer-info h2 {
+    line-height: 115%;
+    font-size: 20px;
+    }
+
+.physio-image {
+    border-right: 1px black dotted;
+    position: relative;
+    top: 12px;
+    }
+
+.physio-image img {
+    max-width: 90%;
     }

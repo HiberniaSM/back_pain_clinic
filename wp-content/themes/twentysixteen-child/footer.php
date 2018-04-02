@@ -13,6 +13,29 @@
 		</div><!-- .site-content -->
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
+                <div class="footer-info">
+                    <div class="physio-text">
+                        <h2>Chartered Society of Physiotherapists</h2>
+                    </div>
+                    <div class="physio-image">    
+                        <img src="http://localhost/back_pain_clinic/wp-content/themes/twentysixteen-child/img/chartered_logo_no-background.png" alt="Chartered Society of Physios logo" width="100" height="auto">
+                    </div>  
+                    <div class="health-text">
+                        <h2>Health and Care Professions Council</h2>
+                    </div>
+                    <div class="health-image">
+                        <img src="http://localhost/back_pain_clinic/wp-content/themes/twentysixteen-child/img/hcpc_logo_1.jpg" alt="Chartered Society of Physios logo" width="150" height="auto"> 
+                    </div>            
+                    <div class="contact-footer">
+                        <h1>The Back Pain Clinic</h1>
+                        <p>36 Hawkin Street</p>
+                        <p>Derry</p>
+                        <p>BT48 6RE</p>
+                        <p>Tel: 028 71 280 380</p>
+                        <p>Mob: 07920 842249</p>
+                    </div>
+                </div>            
+                    
 			<?php if ( has_nav_menu( 'primary' ) ) : ?>
 				<nav class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Primary Menu', 'twentysixteen' ); ?>">
 					<?php
@@ -48,30 +71,6 @@
 					do_action( 'twentysixteen_credits' );
 				?>
 				<span class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
-                    <div class="footer-info">
-                        <div class="physio-info">
-                            <div class="physio-text">
-                                <h2>Chartered Society of Physiotherapists</h2>
-                            </div>
-                            <div class="physio-logo">
-                            </div>
-                        </div>
-                        <div class="health-info">
-                            <div class="health-text">
-                                <h2>Health and Care Professions Council</h2>
-                            </div>
-                            <div class="health-logo">
-                            </div>
-                        </div>
-                        <div class="contact-footer">
-                            <h1>The Back Pain Clinic</h1>
-                            <p>36 Hawkin Street</p>
-                            <p>Derry</p>
-                            <p>BT48 6RE</p>
-                            <p>Tel: 028 71 280 380</p>
-                            <p>Mob: 07920 842249</p>
-                        </div>
-                    </div>
 			</div><!-- .site-info -->
 		</footer><!-- .site-footer -->
 	</div><!-- .site-inner -->
