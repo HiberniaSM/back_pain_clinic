@@ -74,6 +74,10 @@ body {
     font-family: 'Dosis', sans-serif;
 }
 
+.page-content p {
+    margin: 0 0 5px 0;
+}
+
 .profile {
     margin: auto 6%;
 }
@@ -287,4 +291,31 @@ body {
 
 .physio-image img {
     max-width: 90%;
+    }
+    
+/* Contact Us styles */
+    
+.contact-content {
+    max-width: 48%;
+    float: left;
+    padding-right: 30px;
+    }
+
+.contact-content p {
+    margin: 0;
+    }
+    
+.contact-content h3 {
+    font-family: 'Bree Serif', sans-serif;
+    }
+    
+.map {
+    max-width: 48%; 
+    float: right;
+    }
+
+.contact-body {
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
     }
