@@ -319,3 +319,36 @@ body {
     max-width: 90%;
     margin: 0 auto;
     }
+    
+/* About Styles */ 
+
+.about-content {
+    max-width: 65%;
+    margin: 0 auto;
+    margin-left: 5%;
+    }
+
+.about-content p {
+    margin: 0 0 15px 0;
+    }
+
+.about-content h3 {
+    font-family: 'Bree Serif', sans-serif;
+    }
+    
+.about-image {
+    max-width: 25%;
+    position: relative;
+    top: 60px;
+    }
+    
+.about-image img {    
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+        }
+
+.about-main {
+    display: flex;
+    max-width: 90%;
+    }
