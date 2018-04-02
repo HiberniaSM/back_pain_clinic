@@ -456,8 +456,9 @@ function twentyseventeen_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
-}
+    
 add_action( 'wp_enqueue_scripts', 'twentyseventeen_scripts' );
+}
 
 /**
  * Add custom image sizes attribute to enhance responsive image functionality
